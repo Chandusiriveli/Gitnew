@@ -1,0 +1,12 @@
+import java.util.Arrays;
+import java.util.List;
+ 
+public class Main {
+    public static void main(String[] args) {
+        String[] months = {"January", "February", "March", "April", "May"};
+        // converted string array to a List using asList
+        System.out.println("The string array converted to list:");  
+        List&lt;String&gt; month_list = Arrays.asList(months);
+        System.out.println(month_list);
+    }
+}
